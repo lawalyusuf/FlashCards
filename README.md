@@ -1,4 +1,4 @@
-## ⭐ React FlashCards Project Challenge ⭐
+## ⭐ React FlashCards Challenge ⭐
 
 A simple React project that displays a **set of flashcards with questions and answers.** <br> This project helps **practice React fundamentals** by creating interactive flashcards that allow users to **reveal answers by clicking on each card**. Perfect for anyone looking to improve their React skills!
 
@@ -35,9 +35,9 @@ You may also see any lint errors in the console.
 
 ## 📌 What I Learn
 
-👉 How to create and use React Components.
-👉 Passing data between components using Props.
-👉 Conditional rendering with JSX.
+👉 How to create and use React Components. <br>
+👉 Passing data between components using Props. <br>
+👉 Conditional rendering with JSX. <br>
 👉 Using React Hooks like useState for dynamic interactions.
 
 
