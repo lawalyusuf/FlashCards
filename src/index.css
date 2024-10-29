@@ -1,0 +1,39 @@
+/* Apply box-sizing to all elements for consistent sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Base styling for the page body */
+body {
+  font-family: sans-serif; 
+  padding: 20px;  
+}
+
+/* Styling for the flashcards container */
+.flashcards {
+  display: grid;  /* Use grid layout for flashcards */
+  grid-template-columns: 1fr 1fr 1fr;  /* Three columns with equal width */
+  gap: 20px;  /* Space between each flashcard */
+}
+
+/* General styling for each flashcard */
+.flashcards div {
+  border: 1px solid #e7e7e7;  
+  background-color: #f7f7f7;  
+  border-radius: 7px;  
+  aspect-ratio: 2 / 1;  /* Set aspect ratio for consistent height */
+  display: flex;  
+  align-items: center;  /* Center content vertically */
+  justify-content: center;  /* Center content horizontally */
+  text-align: center;  /* Center text inside the div */
+  padding: 20px;  
+  cursor: pointer; 
+}
+
+/* Styling for selected flashcard */
+div.selected {
+  border: 1px solid #e03131;  
+  background-color: #e03131;  
+  color: #fff;  
+  font-weight: bold; 
+}
